@@ -1,0 +1,10 @@
+{
+  "name": "haxelibcounter",
+  "url" : "https://github.com/underscorediscovery/haxe-entry-point-example/",
+  "license": "MIT",
+  "tags": ["cross"],
+  "description": "Haxe entry point - An article on getting started with Haxe",
+  "version": "1.0.0",
+  "releasenote": "Initial version",
+  "contributors": ["underscorediscovery"]
+}

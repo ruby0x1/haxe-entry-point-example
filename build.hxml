@@ -1,0 +1,12 @@
+#use this class as our entry point
+-main HaxelibCounter
+#is this a debug build? leave this line enabled
+#-debug
+#generate a neko file from the code
+-neko run.n
+#use the arguable lib as a dependency
+-lib arguable
+#specify the define, which we can comment out to disable
+#-D haxelibcounter_verbose
+#execute our new file with neko to test it immediately
+-cmd neko run.n --count --show-names
